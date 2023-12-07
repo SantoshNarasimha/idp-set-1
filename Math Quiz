@@ -1,0 +1,15 @@
+# idp set - 1 next wave Math Quiz code:
+two = list(map(int, input("").split()))
+
+saan = int(input())
+
+for i in range(saan):
+    sai = list(map(int, input().split()))
+    vm = sai[0]
+    vk = sai[1]
+    v = 0
+    for j in range(vm, vk+1):
+        if j in two:
+            counts  = two.count(j)
+            v +=(counts * j)
+    print(v)
