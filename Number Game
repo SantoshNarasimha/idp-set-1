@@ -1,0 +1,19 @@
+## idp set - 1 next wave Number Game code:
+sann = input()
+
+san = sann.split(",")
+
+k = '00'
+
+for i in range(len(san)):
+    if san[i] == k:
+        san[i] = '0'
+
+van = int(input())
+
+mar = san[van:]
+
+aar = san[:-van]
+
+print(" ".join(map(str, mar)))
+print(" ".join(map(str, aar)))
