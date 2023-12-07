@@ -1,4 +1,4 @@
-# idp set - 1 next wave Math Quiz code:
+# idp set - 1 next wave Difficult additioncode:
 A = list(map(int, input().split()))
 a = str(A[0])
 b = str(A[1])
