@@ -1,0 +1,15 @@
+# idp series set - 1 swap characters code:
+S = input()
+T = input()
+a = list(S)
+b = list(T)
+for i in range(len(S)):
+    if a[i]!=b[i]:
+        temp = b[i+1]
+        b[i+1] = b[i]
+        b[i] = temp
+        break;
+if a[i] == b[i]:
+    print("Yes")
+else:
+    print("No")
